@@ -1,0 +1,33 @@
+body {
+    background-image: url(images/baggrund.png);
+    background-size: contain;
+}
+
+.section_wrapper {
+    background-color: #5EA2A2;
+    margin: 10vw;
+    padding: 2vw;
+    text-align: center;
+    border: solid 2px grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    margin: 5vw;
+    color: white;
+    font-size: 3vw;
+}
+
+h2 {
+    color: white;
+    font-size: 5vw;
+}
+
+h3 {
+    color: white;
+    font-size: 3.5vw;
+}
+
+img {
+    width: 60%;
+}
