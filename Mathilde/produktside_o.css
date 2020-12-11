@@ -1,8 +1,8 @@
 body {
     background-image: url(image/baggrund.jpg);
-/*    background-repeat: repeat;*/
+    /*    background-repeat: repeat;*/
     background-size: contain;
-/*    width: 100%;*/
+    /*    width: 100%;*/
 
 
 }
@@ -28,11 +28,17 @@ nav {
 
 
 
-/*
 a {
-    font-family: helvetica, sans-serif;
+    text-decoration: none;
 }
-*/
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
 
 .section_wrapper img {
     opacity: 100%;
