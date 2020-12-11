@@ -1,24 +1,65 @@
 body {
     background-image: url(image/baggrund.jpg);
-    background-repeat: repeat;
-    background-size: 500px 300px;
+/*    background-repeat: repeat;*/
+    background-size: contain;
+/*    width: 100%;*/
 
+
+}
+
+nav {
+    font-family: helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    font-size: 0.7rem;
+    color: black;
+    margin-left: 6vw;
 }
 
 .section_wrapper {
-    width: 391px;
 
     border: 1px solid black;
-    padding: 10px;
-    opacity: 80%;
-    background-color: white;
-
+    margin: 5vw;
+    margin-top: 0.5vw;
+    padding: 2vw;
+    /*    opacity: 80%;*/
+    background: rgba(255, 255, 255, 0.8);
 }
 
+
+
+/*
 a {
     font-family: helvetica, sans-serif;
 }
+*/
 
-img {
-    width: 180px;
+.section_wrapper img {
+    opacity: 100%;
+    width: 37vw;
+}
+
+figure {
+    margin: 1vw;
+    text-align: center;
+}
+
+figcaption {
+    text-align: left;
+    font-family: helvetica, sans-serif;
+    font-size: 0.5rem;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.knap {
+    text-align: center;
+    margin-top: 4vw;
 }
