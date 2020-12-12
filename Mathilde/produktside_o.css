@@ -65,7 +65,62 @@ figcaption {
     grid-template-columns: 1fr 1fr;
 }
 
+.image6_1 {
+    display: none;
+}
+
+.image6_2 {
+    display: none;
+}
+
+
+.image6_3 {
+    display: none;
+}
+
 .knap {
     text-align: center;
     margin-top: 4vw;
+}
+
+
+@media (min-width: 600px) {
+
+    .section_wrapper {
+        display: grid;
+        justify-content: center;
+    }
+
+    .produkt_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+
+    }
+
+    .section_wrapper img {
+        width: 14.9vw;
+    }
+
+    nav {
+        font-family: helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 1.3fr 1fr 1fr 1fr;
+        font-size: 1rem;
+        color: black;
+        margin-left: 6vw;
+    }
+
+    .image6_1 {
+        display: contents;
+    }
+
+    .image6_2 {
+        display: contents;
+    }
+
+
+    .image6_3 {
+        display: contents;
+    }
 }
