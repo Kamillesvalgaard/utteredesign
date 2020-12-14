@@ -1,0 +1,13 @@
+body {
+    background-image: url(images/baggrund.png);
+    background-size: cover;
+}
+
+#section_2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+}
+
+#section_2 img {
+    margin-left: 400px;
+}
