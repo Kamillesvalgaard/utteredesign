@@ -1,0 +1,137 @@
+/*FOOTER CSS*/
+
+footer {
+    background-color: #F9CDD3;
+    font-family: 'Quicksand', sans-serif;
+    padding: 3vw;
+    border: solid #707070 2px;
+}
+
+label,
+input,
+button {
+    display: block;
+    font-size: 15px;
+}
+
+.form-felt,
+button {
+    margin: 3vw;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    margin: 3vw;
+    font-size: 20px;
+}
+
+footer p {
+    color: #707070;
+    margin: 3vw;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: #707070;
+}
+
+/* visited link */
+a:visited {
+    color: #707070;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+
+.grid_col {
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    width: 60%;
+    margin: 3vw;
+}
+
+/* MEDIA Q'S MED FOOTER*/
+
+@media (min-width: 600px) {
+
+    label,
+    input,
+    button {
+        font-size: 2vw;
+    }
+
+
+    footer a {
+        font-size: 3vw;
+    }
+
+    footer p {
+        font-size: 2vw;
+        margin-top: 25px;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media (min-width: 700px) {
+    footer a {
+        font-size: 2vw;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 900px) {
+    footer p {
+        font-size: 1.5vw;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 1.5vw;
+    }
+
+
+    footer img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1100px) {
+    footer p {
+        font-size: 1.2vw;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 1.2vw;
+    }
+
+    footer a {
+        font-size: 1.5vw;
+    }
+
+    footer {
+        padding: 1vw;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
