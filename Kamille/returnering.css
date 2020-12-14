@@ -82,8 +82,14 @@ a:hover {
     color: white;
 }
 
+
+.grid_col {
+    display: flex;
+    flex-direction: row;
+}
+
 footer img {
-    width: 5%;
+    width: 60%;
     margin: 3vw;
 }
 
@@ -127,11 +133,12 @@ footer img {
 
     footer p {
         font-size: 2vw;
+        margin-top: 25px;
     }
 
-
-    footer img {
-        width: 4%;
+    .grid_container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
 
@@ -141,7 +148,7 @@ footer img {
     }
 
     footer img {
-        width: 3%;
+        width: 40%;
     }
 }
 
@@ -174,6 +181,11 @@ footer img {
     input,
     button {
         font-size: 1.5vw;
+    }
+
+
+    footer img {
+        width: 40%;
     }
 }
 
@@ -236,6 +248,6 @@ footer img {
     }
 
     footer img {
-        width: 2%;
+        width: 40%;
     }
 }
