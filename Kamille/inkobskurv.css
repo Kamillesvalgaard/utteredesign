@@ -3,11 +3,59 @@ body {
     background-size: cover;
 }
 
-#section_2 {
+#section_1 {
     font-family: 'Quicksand', sans-serif;
-    text-align: right;
+    background-color: white;
+    border: solid #707070 2px;
+    padding: 3vw;
 }
 
+p,
+h2,
+h3 {
+    color: #707070;
+}
+
+/*
 #section_2 img {
-    margin-left: 400px;
+    margin-left: 380px;
+}
+*/
+
+/* unvisited link */
+a:link {
+    color: #707070;
+}
+
+/* visited link */
+a:visited {
+    color: #707070;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+.row1 img {
+    width: 30%;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 img {
+    width: 30%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_wrapper2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
