@@ -31,3 +31,78 @@ h3 {
 img {
     width: 60%;
 }
+
+
+
+@media (min-width: 600px) {
+
+    .section_wrapper {
+        margin: 15vw;
+        padding: 4vw;
+    }
+
+    p {
+        margin: 7vw;
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 900px) {
+
+    .section_wrapper {
+        margin: 20vw;
+        padding: 6vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+
+    p {
+        margin: 5vw;
+        font-size: 2vw;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .section_wrapper {
+        margin: 25vw;
+        padding: 2vw;
+
+    }
+
+    p {
+        margin: 4vw;
+        font-size: 1.5vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    img {
+        width: 70%;
+    }
+}
