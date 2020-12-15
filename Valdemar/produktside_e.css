@@ -7,14 +7,14 @@ html {
     font-size: 100%;
 }
 
-.overskrift {
-    position: absolute;
-    top: 0;
-    left: 15vw;
+
+h1,
+#menuknap {
+    color: black;
 }
 
 h1 {
-    color: black;
+    font-size: 1.8rem;
 }
 
 .section_wrapper {
@@ -40,7 +40,6 @@ main {
 
 .image_container {
     display: flex;
-
 }
 
 .image_container {

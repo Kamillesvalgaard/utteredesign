@@ -4,26 +4,22 @@ body {
 }
 
 /*HEADER*/
-.overskrift {
-    position: absolute;
-    top: 0;
-    left: 15vw;
+
+html {
+    font-size: 100%;
 }
 
 .overskrift h1 {
     text-align: center;
     margin: 13px;
     color: black;
-    font-size: 3rem;
+    font-size: 1.8rem;
     z-index: 1;
 }
 
-html {
-    font-size: 100%;
-}
 
-#img_container {
-    width: 12vh;
+img {
+    width: 100%;
 }
 
 header nav {
@@ -43,7 +39,7 @@ p {
 }
 
 .section_wrapper h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     margin: 1vw;
     color: black;
@@ -97,7 +93,7 @@ p {
     }
 
     #menulinje {
-        font-size: 1.5rem;
+        font-size: 1rem;
 
     }
 
@@ -137,6 +133,10 @@ p {
         line-height: 2vw;
     }
 
+    .tekst p {
+        line-height: 4vw;
+    }
+
     .titel {
         display: flex;
         flex-direction: row;
@@ -145,7 +145,7 @@ p {
 
     .section_wrapper {
         margin: 14vw;
-        margin-top: 15vw;
+        margin-top: 150px;
         padding: 2vw;
         background: rgba(255, 255, 255, 0.7);
     }
