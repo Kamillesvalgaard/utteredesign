@@ -196,12 +196,10 @@ footer img {
         grid-template-columns: 2fr 1fr;
     }
 
-
-
-
     #section_1 {
         padding: 5vw;
         margin: 60px;
+        margin-top: 150px;
     }
 
     .row1 img {
@@ -235,6 +233,7 @@ footer img {
 
     #section_1 {
         margin: 70px;
+        margin-top: 150px;
     }
 
     .row1 img {
@@ -319,6 +318,7 @@ footer img {
     #section_1 {
         padding: 6vw;
         margin: 20vw;
+        margin-top: 150px;
     }
 
     .row1 img {
