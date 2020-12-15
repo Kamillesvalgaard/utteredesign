@@ -8,19 +8,28 @@ html {
 }
 
 
-h1,
+img {
+    width: 100%;
+}
+
+#menulinje {
+    font-size: 1rem;
+
+}
+
 #menuknap {
     color: black;
 }
 
 h1 {
     font-size: 1.8rem;
+    color: black;
 }
 
 .section_wrapper {
     border: 1px solid black;
     margin: 5vw;
-    margin-top: 41vw;
+    margin-top: 33vw;
     padding: 2vw;
     background: rgba(255, 255, 255, 0.8);
 }
@@ -30,9 +39,6 @@ h1 {
     display: none;
 }
 
-img {
-    width: 100%;
-}
 
 main {
     margin: 0 auto;
@@ -64,11 +70,13 @@ main {
 }
 
 @media (min-width: 600px) {
+    /*
     .overskrift {
         position: absolute;
         top: 0;
         left: 38vw;
     }
+*/
 
     /*SECTION WRAPPER*/
 
@@ -82,8 +90,9 @@ main {
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
         margin: 3vw;
-        margin-top: 14vw;
-        line-height: 2vw;
+        margin-top: 150px;
+        /*        line-height: 2vw;
+        */
     }
 
     h2,
@@ -116,7 +125,25 @@ main {
     .ekstra img {
         width: 10%;
         position: absolute;
-        top: 57vw;
-        left: 8.36vw;
+        margin-left: 6vw;
+        margin-top: 42vw;
+    }
+}
+
+@media (min-width: 800px) {
+    .ekstra img {
+        margin-left: 4.5vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .ekstra img {
+        margin-left: 3.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ekstra img {
+        margin-left: 3vw;
     }
 }
