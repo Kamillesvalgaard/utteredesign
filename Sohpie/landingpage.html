@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utte design</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="landingpage.css">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
@@ -18,8 +19,151 @@
 </head>
 
 <body>
-    <h1>hej</h1>
-    <script src=""></script>
+
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <ul id="menulinje" class="hidden">
+                <li>
+                    <a href="index.html#shop">SHOP</a>
+                </li>
+                <li>
+                    <a href="index.html#om">OM</a>
+                </li>
+                <li>
+                    <a href="index.html#kontakt">KONTAKT</a>
+                </li>
+                <li><a href="index.html">INSTAGRAM</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>UTTE DESIGN</h1>
+
+        <div id="img_container">
+            <div class="bag">
+                <img src="uielementer/kurv.svg" alt="kurv-ikon">
+
+            </div>
+            <div class="search">
+                <img src="uielementer/search.svg" alt="søgefelt">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="section_1">
+            <div class="section_wrapper">
+                <video id="splashvideo" autoplay muted loop>
+                    <source src="http://mathildesahlholdt.com/kea/05_content/flashvideo/flashvideo.mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </section>
+
+        <section id="section_2">
+            <h2>Velkommen Dejlige, smukke sjæl</h2>
+            <h3>smykker lavet med kærlighed, natursten, læder og rå messing</h3>
+            <div class="section_wrapper">
+                <div class="image1">
+                    <img src="IMG/designmarked.png" alt="designmarked">
+                </div>
+                <div class="image2">
+                    <img src="IMG/hands.jpg" alt="smykke i hånd">
+                </div>
+                <div class="image3">
+                    <img src="IMG/utte.jpg" alt="utte har smykke på">
+                </div>
+                <div class="image4">
+                    <img src="IMG/smykkeblue.png" alt="smykke">
+                </div>
+                <div class="image5">
+                    <img src="IMG/smykkemarmor.jpg" alt="smykke på marmor">
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <div class="knap">
+                <img src="uielementer/Artboard%2012.svg" alt="shop nu knap">
+            </div>
+
+        </div>
+
+
+
+
+        <section id="section_3">
+
+            <div class="section_wrapper">
+                <div class="col">
+                    <img src="IMG/blandselv.png" alt="blandselvsmykker">
+                    <p>“Hos mig kan du købe dine smykker enkeltvis og på den måde mixe og matche med dine eksisterende smykker. Jeg elsker leg og selvfølgelig skal vi også kunne lege mens vi smykkerer os selv”</p>
+                </div>
+
+                <div class="col">
+                    <img src="IMG/handmade.png" alt="håndlavet smykker">
+                    <p>“Jeg håndlaver og designer alle smykker. Når du køber et smykke, køber du også en lille del af mig. Hvert smykke er lavet med kærlighed og solskin.”</p>
+                </div>
+
+                <div class="col">
+                    <img src="IMG/natursten.png" alt="natur smykker">
+                    <p>“Jeg bruger natursten. Natursten har hver sin magiske historie, man kan vælge at tro på. Jeg bruger f.eks. rosakvarts, som eftersigende skulle udsende kærlige, blide vibrationer og opsuge negative energier.”</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="landingpage.js"></script>
 </body>
+<footer>
+    <div class="grid_container">
+        <div id="menuifooter">
+            <nav>
+                <a href="../mathilde/ommig.html">Om</a>
+                <a href="../mathilde/#kontakt.html">Kontakt</a>
+                <a href="--">Terms & conditions</a>
+                <a href="../kamille/returnering.html">Levering & returnering</a>
+                <a href="../mathilde/kontakt.html">Forhandlere</a>
+            </nav>
+            <div class="grid_col">
+                <a href="https://www.instagram.com/uttedesign/">
+                    <img src="images/instagram.png" alt="instagram ikon">
+                </a>
+                <a href="https://www.facebook.com/uttedesign">
+                    <img src="images/facebook.png" alt="facebook ikon">
+                </a>
+            </div>
+        </div>
+        <div class="form">
+            <p>
+                Hvis du har spørgsmål, skriv til mig. <br>Tak fordi du er her // Line Utte
+            </p>
+            <hr>
+            <form>
+                <div class="form-felt">
+                    <input placeholder="Hvad hedder du?" id="name" type="text" name="name">
+                </div>
+                <div class="form-felt">
+                    <input placeholder="Hvad er din e-mail?" id="email" type="email" name="email">
+                </div>
+                <div class="form-felt">
+                    <label for="text">
+
+                    </label>
+                    <input placeholder="Besked (valgfri)" id="text" type="text" name="text">
+                </div>
+                <button>Send</button>
+
+
+            </form>
+        </div>
+    </div>
+</footer>
+
 
 </html>
