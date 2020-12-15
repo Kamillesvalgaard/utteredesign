@@ -1,5 +1,98 @@
 /* HEADER*/
 
+html {
+    font-size: 62.5%;
+    margin: 0;
+}
+
+
+header {
+    width: 100%;
+    height: 0;
+    /*hvis ikke vi har den her, så fylder headeren hele forsiden*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#img_container {
+    width: 8.5vh;
+    z-index: 1;
+    display: inline-flex;
+    padding: 1rem;
+}
+
+#img_container search {
+    width: 7vh;
+    height: 9vh;
+}
+
+nav {
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: left;
+    z-index: 1;
+}
+
+#menulinje {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+
+}
+
+#menuknap {
+    cursor: pointer;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#produktside nav {
+
+    color: red;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 13px;
+    color: white;
+    font-size: 3rem;
+    z-index: 1;
+    padding-right: 57px;
+}
+
+@media (min-width:600px) {
+    #menuknap {
+        display: none
+    }
+
+    #menulinje.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+
+}
+
+
 
 
 /*HOVER-FUNKTION VED LINKS CSS*/

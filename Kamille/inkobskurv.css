@@ -8,6 +8,7 @@ body {
     background-color: white;
     border: solid #707070 2px;
     padding: 3vw;
+    margin: 20px;
 }
 
 p,
@@ -16,11 +17,6 @@ h3 {
     color: #707070;
 }
 
-/*
-#section_2 img {
-    margin-left: 380px;
-}
-*/
 
 /* unvisited link */
 a:link {
@@ -40,24 +36,11 @@ a:hover {
 }
 
 .row1 img {
-    width: 30%;
-}
-
-.row1 {
-    /*
-    display: flex;
-    flex-direction: row;
-*/
-    text-align: right;
+    width: 50%;
 }
 
 .row2 img {
-    width: 30%;
-}
-
-.row2 {
-    display: flex;
-    flex-direction: row;
+    width: 50%;
 }
 
 .section_wrapper2 {
@@ -67,14 +50,268 @@ a:hover {
 
 #kasse {
     background-color: #D2A2CF;
+    padding: 3vw;
+    border-radius: 20px;
 }
 
 #opdater {
     background-color: #5EA2A2;
+    padding: 3vw;
+    border-radius: 20px;
 }
 
-nav {
+#section_1 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 3vw;
+    padding: 3vw;
+}
+
+#plus {
+    background-color: #5EA2A2;
+    border-radius: 100px;
+    width: 20px;
+    text-align: center;
+    font-size: 3.3vw;
+    padding: 1vw;
+    margin: 3vw;
+}
+
+#minus {
+    background-color: #5EA2A2;
+    border-radius: 100px;
+    width: 20px;
+    text-align: center;
+    font-size: 3.3vw;
+    padding: 1vw;
+    margin: 3vw;
+}
+
+.plusminus {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*FOOTER CSS*/
+
+footer {
+    background-color: #F9CDD3;
+    font-family: 'Quicksand', sans-serif;
+    padding: 3vw;
+    border: solid #707070 2px;
+}
+
+label,
+input,
+button {
+    display: block;
+    font-size: 15px;
+}
+
+.form-felt,
+button {
+    margin: 3vw;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    margin: 3vw;
+    font-size: 20px;
+}
+
+footer p {
+    color: #707070;
+    margin: 3vw;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: #707070;
+}
+
+/* visited link */
+a:visited {
+    color: #707070;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+
+.grid_col {
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    width: 60%;
+    margin: 3vw;
+}
+
+/* MEDIA Q'S MED FOOTER*/
+
+@media (min-width: 600px) {
+
+    label,
+    input,
+    button {
+        font-size: 2vw;
+    }
+
+
+    footer a {
+        font-size: 3vw;
+    }
+
+    footer p {
+        font-size: 2vw;
+        margin-top: 25px;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+
+
+
+    #section_1 {
+        padding: 5vw;
+        margin: 60px;
+    }
+
+    .row1 img {
+        width: 40%;
+    }
+
+    .row2 img {
+        width: 40%;
+    }
+
+    #plus {
+        width: 20px;
+    }
+
+    #minus {
+        width: 20px;
+    }
+
+
+}
+
+@media (min-width: 700px) {
+    footer a {
+        font-size: 2vw;
+    }
+
+    footer img {
+        width: 40%;
+    }
+
+
+    #section_1 {
+        margin: 70px;
+    }
+
+    .row1 img {
+        width: 35%;
+    }
+
+    .row2 img {
+        width: 35%;
+    }
+
+    #plus {
+        width: 25px;
+    }
+
+    #minus {
+        width: 25px;
+    }
+}
+
+@media (min-width: 900px) {
+    footer p {
+        font-size: 1.5vw;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 1.5vw;
+    }
+
+
+    footer img {
+        width: 40%;
+    }
+
+    #section_1 {
+        padding: 6vw;
+        margin: 15vw;
+    }
+
+
+    #plus {
+        font-size: 2vw;
+    }
+
+    #minus {
+        font-size: 2vw;
+    }
+
+    #kasse {
+        padding: 2vw;
+    }
+
+    #opdater {
+        padding: 2vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    footer p {
+        font-size: 1.2vw;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 1.2vw;
+    }
+
+    footer a {
+        font-size: 1.5vw;
+    }
+
+    footer {
+        padding: 1vw;
+    }
+
+    footer img {
+        width: 40%;
+    }
+
+    #section_1 {
+        padding: 6vw;
+        margin: 20vw;
+    }
+
+    .row1 img {
+        width: 40%;
+    }
+
+    .row2 img {
+        width: 40%;
+    }
+
 }

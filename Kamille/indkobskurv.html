@@ -9,12 +9,46 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="inkobskurv.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body id="indkobskurv.html">
     <header>
-        <h1></h1>
-        <nav></nav>
+        <nav>
+            <div id="menuknap">☰</div>
+            <ul id="menulinje" class="hidden">
+                <li>
+                    <a href="index.html#shop">SHOP</a>
+                </li>
+                <li>
+                    <a href="index.html#om">OM</a>
+                </li>
+                <li>
+                    <a href="index.html#kontakt">KONTAKT</a>
+                </li>
+                <li><a href="index.html">INSTAGRAM</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>UTTE DESIGN</h1>
+
+        <div id="img_container">
+            <div class="bag">
+                <img src="uielementer/kurv.svg">
+
+            </div>
+            <div class="search">
+                <img src="uielementer/search.svg">
+            </div>
+        </div>
     </header>
 
     <main>
@@ -25,17 +59,39 @@
             <section id="section_wrapper">
                 <div class="column">
                     <div class="row1">
-                        <img src="images/produkt1.png" alt="produktbillede">
+                        <div class="img1">
+                            <img src="images/produkt1.png" alt="produktbillede">
+                        </div>
                         <h3>Boho Bliss // Små Hoops</h3>
                         <p>278DKK <br>1 STK</p>
-                        <a href="-">Fjern</a>
+                        <div class="fjern">
+                            <p>Fjern</p>
+                        </div>
+                        <div class="plusminus">
+                            <div id="plus">
+                                <a href="">+</a>
+                            </div>
+                            <div id="minus">
+                                <a href="">-</a>
+                            </div>
+                        </div>
                     </div>
                     <hr>
                     <div class="row2">
                         <img src="images/produkt2.png" alt="produktbillede">
                         <h3>Boho Bliss // Små Hoops</h3>
                         <p>278DKK <br>1 STK</p>
-                        <a href="-">Fjern</a>
+                        <div class="fjern">
+                            <p>Fjern</p>
+                        </div>
+                        <div class="plusminus">
+                            <div id="plus">
+                                <a href="">+</a>
+                            </div>
+                            <div id="minus">
+                                <a href="">-</a>
+                            </div>
+                        </div>
                     </div>
                     <hr>
                 </div>
@@ -57,6 +113,52 @@
             </div>
         </section>
     </main>
+    <script src="..landingpage.js"></script>
 </body>
+
+<footer>
+    <div class="grid_container">
+        <div id="menuifooter">
+            <nav>
+                <a href="/mathilde/ommig.html">Om</a>
+                <a href="/mathilde/kontakt.html">Kontakt</a>
+                <a href="terms.html">Terms & conditions</a>
+                <a href="/kamille/returnering.html">Levering & returnering</a>
+                <a href="/mathilde/kontakt.html">Forhandlere</a>
+            </nav>
+            <div class="grid_col">
+                <a href="https://www.instagram.com/uttedesign/">
+                    <img src="images/instagram.png" alt="instagram ikon">
+                </a>
+                <a href="https://www.facebook.com/uttedesign">
+                    <img src="images/facebook.png" alt="facebook ikon">
+                </a>
+            </div>
+        </div>
+        <div class="form">
+            <p>
+                Hvis du har spørgsmål, skriv til mig. <br>Tak fordi du er her // Line Utte
+            </p>
+            <hr>
+            <form>
+                <div class="form-felt">
+                    <input placeholder="Hvad hedder du?" id="name" type="text" name="name">
+                </div>
+                <div class="form-felt">
+                    <input placeholder="Hvad er din e-mail?" id="email" type="email" name="email">
+                </div>
+                <div class="form-felt">
+                    <label for="text">
+
+                    </label>
+                    <input placeholder="Besked (valgfri)" id="text" type="text" name="text">
+                </div>
+                <button>Send</button>
+
+
+            </form>
+        </div>
+    </div>
+</footer>
 
 </html>
