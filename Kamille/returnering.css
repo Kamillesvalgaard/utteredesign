@@ -234,13 +234,18 @@ footer img {
     .section_wrapper {
         margin: 25vw;
         margin-top: 150px;
+        margin: 15vw;
     }
 
     p {
-        font-size: 1.2vw;
+        font-size: 1.8vw;
     }
 
     h2 {
+        font-size: 3vw;
+    }
+
+    h3 {
         font-size: 2.5vw;
     }
 
