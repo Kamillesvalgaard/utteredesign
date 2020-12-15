@@ -15,12 +15,20 @@ html {
     font-size: 100%;
 }
 
+img {
+    width: 100%;
+}
+
+/*
 #img_container {
     width: 12vh;
 }
+*/
 
 h1 {
     color: black;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 header nav {

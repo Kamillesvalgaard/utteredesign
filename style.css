@@ -174,7 +174,8 @@ footer p {
 .grid_col {
     display: flex;
     flex-direction: row;
-    height: 10vw;}
+    height: 10vw;
+}
 
 footer img {
     width: 60%;
