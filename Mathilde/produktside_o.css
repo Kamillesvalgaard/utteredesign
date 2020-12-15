@@ -5,11 +5,7 @@ body {
 
 
 /*HEADER*/
-.overskrift {
-    position: absolute;
-    top: 0;
-    left: 15vw;
-}
+
 
 html {
     font-size: 100%;
@@ -121,7 +117,6 @@ figcaption {
 
     /*HEADER*/
     .overskrift {
-        position: absolute;
         top: 0;
         left: 38vw;
     }
@@ -131,7 +126,7 @@ figcaption {
     }
 
     #menulinje {
-        font-size: 1.5rem;
+        font-size: 1rem;
 
     }
 
@@ -143,7 +138,7 @@ figcaption {
         font-size: 1rem;
         color: black;
         margin-left: 6vw;
-        margin-top: 12vw;
+        margin-top: 150px;
     }
 
     /*    SECTION WRAPPER*/
