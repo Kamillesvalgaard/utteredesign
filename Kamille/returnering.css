@@ -34,6 +34,10 @@ h3 {
 }
 
 img {
+    width: 100%;
+}
+
+#section1 img {
     width: 60%;
 }
 
@@ -98,6 +102,11 @@ footer img {
     margin: 3vw;
 }
 
+#menuknap {
+    color: black;
+}
+
+
 /*MEDIAS*/
 
 @media (min-width: 600px) {
@@ -120,7 +129,7 @@ footer img {
         font-size: 2vw;
     }
 
-    img {
+    #section1 img {
         width: 50%;
     }
 
@@ -173,7 +182,7 @@ footer img {
         font-size: 1.5vw;
     }
 
-    img {
+    #section1 img {
         width: 60%;
     }
 
@@ -196,6 +205,9 @@ footer img {
 
 @media (min-width: 1000px) {
 
+    .section_wrapper {
+        margin-top: 150px;
+    }
 
     p {
         margin: 4vw;
@@ -210,7 +222,7 @@ footer img {
         font-size: 2vw;
     }
 
-    img {
+    #section1 img {
         width: 70%;
     }
 }
@@ -219,6 +231,7 @@ footer img {
 
     .section_wrapper {
         margin: 25vw;
+        margin-top: 150px;
     }
 
     p {
@@ -249,5 +262,9 @@ footer img {
 
     footer img {
         width: 40%;
+    }
+
+    #section1 img {
+        width: 50%;
     }
 }
