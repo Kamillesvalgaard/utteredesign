@@ -4,35 +4,139 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produktside</title>
-    <link rel="stylesheet" href="produktside_e.css">
+    <title></title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../valdemar/produktside_e.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
     <header>
-        <nav></nav>
-        <h1></h1>
+        <nav>
+            <div id="menuknap">☰</div>
+            <ul id="menulinje" class="hidden">
+                <li>
+                    <a href="../mathilde/produktside_o.html">SHOP</a>
+                </li>
+                <li>
+                    <a href="../mathilde/ommig.html">OM</a>
+                </li>
+                <li>
+                    <a href="../mathilde/kontakt.html">KONTAKT</a>
+                </li>
+                <li><a href="https://www.instagram.com/uttedesign/">INSTAGRAM</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="overskrift">
+            <a href="../sohpie/landingpage.html">
+                <h1>UTTE DESIGN</h1>
+            </a>
+        </div>
+
+        <div id="img_container">
+            <div class="bag">
+                <a href="../kamille/indkobskurv.html">
+                    <img src="../mathilde/knap/kurv.svg" alt="kurv">
+                </a>
+
+            </div>
+            <div class="search">
+                <img src="../mathilde/knap/search.svg" alt="search">
+            </div>
+        </div>
     </header>
     <main>
-        <section id="section_1">
+        <section>
             <div class="section_wrapper">
-                <div class="col_1">
-                    <div class="image1"></div>
-                    <div class="image2"></div>
+                <div class="image_container">
+                    <figure id="billed1">
+                        <img src="../mathilde/billeder-video/kvadrater/DSC_8747.jpg" alt="smykke">
+                    </figure>
+
+                    <figure id="billed2">
+                        <img src="../mathilde/billeder-video/kvadrater/DSC_8746.jpg" alt="smykke2">
+                    </figure>
+
                 </div>
 
+
                 <div class="col_2">
-                    <h2></h2>
-                    <p></p>
-                    <div class="image2_1"></div>
-                    <p></p>
+                    <h2>STRING MED STEN</h2>
+                    <h3>169,00 kr.</h3>
+                    <div class="image2_1">
+                        <a href="../kamille/indkobskurv.html">
+                            <img src="../valdemar/uielementer/kurv.png" alt="kurv">
+                        </a>
+                    </div>
+
+                    <p id="tekst">En dobbeltforgyldt ørestring med mintgrøn aventurinsten.
+                    <p>Grøn aventurin repræsenterer lethed, kærlighed og eventyr - og stimulerer følelsen af at intet er umuligt! Stenen er billedet på den gode tanke og skulle bringe lykke og positivitet - især til svære tider - og hvem vil ikke gerne have lidt hjælp dér! Og så er den fantastisk smuk.</p>
+                    <p>Ørestringen er dobbeltforgyldt nikkelfri.</p>
+                    <p>OBS: Én string - for at få et sæt, skal to bestilles.</p>
+                    <p>TIP: kan kombineres med en smuk stik for et cool, asymmetrisk look - der stadig skaber balance i de smukke grønne natursten.</p>
+
+                </div>
+                <div class="ekstra">
+                    <img src="../mathilde/billeder-video/kvadrater/DSC_8746.jpg" alt="smykke2">
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <nav></nav>
+        <div class="grid_container">
+            <div id="menuifooter">
+                <nav>
+                    <a href="../mathilde/ommig.html">Om</a>
+                    <a href="../mathilde/kontakt.html">Kontakt</a>
+                    <a href="terms.html">Terms & conditions</a>
+                    <a href="../kamille/returnering.html">Levering & returnering</a>
+                    <a href="../mathilde/kontakt.html">Forhandlere</a>
+                </nav>
+                <div class="grid_col">
+                    <a href="https://www.instagram.com/uttedesign/">
+                        <img src="../mathilde/footer/instagram.png" alt="instagram ikon">
+                    </a>
+                    <a href="https://www.facebook.com/uttedesign">
+                        <img src="../mathilde/footer/facebook.png" alt="facebook ikon">
+                    </a>
+                </div>
+            </div>
+            <div class="form">
+                <p>
+                    Hvis du har spørgsmål, skriv til mig. <br>Tak fordi du er her // Line Utte
+                </p>
+                <hr>
+                <form>
+                    <div class="form-felt">
+                        <input placeholder="Hvad hedder du?" id="name" type="text" name="name">
+                    </div>
+                    <div class="form-felt">
+                        <input placeholder="Hvad er din e-mail?" id="email" type="email" name="email">
+                    </div>
+                    <div class="form-felt">
+                        <label for="text">
+
+                        </label>
+                        <input placeholder="Besked (valgfri)" id="text" type="text" name="text">
+                    </div>
+                    <button>Send</button>
+
+
+                </form>
+            </div>
+        </div>
     </footer>
+    <script src="../landingpage.js"></script>
 </body>
 
 </html>

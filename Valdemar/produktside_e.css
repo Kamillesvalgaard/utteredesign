@@ -1,14 +1,123 @@
-#section_1 {
-    width: 391px;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
+body {
+    background-image: url(../image/baggrund.jpg);
+    background-size: contain;
+}
+
+html {
+    font-size: 100%;
+}
+
+.overskrift {
+    position: absolute;
+    top: 0;
+    left: 15vw;
+}
+
+h1 {
+    color: black;
 }
 
 .section_wrapper {
-    width: 391px;
-    height: 500px;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
+    border: 1px solid black;
+    margin: 5vw;
+    margin-top: 41vw;
+    padding: 2vw;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+.ekstra {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.image_container {
+    display: flex;
+
+}
+
+.image_container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.image_container figure {
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.image_container img {
+    margin-right: 20px;
+}
+
+.image2_1 {
+    width: 40%;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+@media (min-width: 600px) {
+    .overskrift {
+        position: absolute;
+        top: 0;
+        left: 38vw;
+    }
+
+    /*SECTION WRAPPER*/
+
+    .section_wrapper {
+        padding: 2vw;
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+        margin: 3vw;
+        margin-top: 14vw;
+        line-height: 2vw;
+    }
+
+    h2,
+    h3 {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 2.2rem;
+        margin-top: 1.5vw;
+    }
+
+    .image2_1 {
+        width: 40%;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    #billed2 {
+        display: none;
+    }
+
+    #tekst {
+        margin-top: 5vw;
+    }
+
+    .ekstra {
+        display: contents;
+
+    }
+
+    .ekstra img {
+        width: 10%;
+        position: absolute;
+        top: 57vw;
+        left: 8.36vw;
+    }
 }
