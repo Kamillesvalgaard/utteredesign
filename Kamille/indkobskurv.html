@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex" />
     <title>Indkøbskurv - Utte</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="inkobskurv.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
@@ -25,15 +25,15 @@
             <div id="menuknap">☰</div>
             <ul id="menulinje" class="hidden">
                 <li>
-                    <a href="index.html#shop">SHOP</a>
+                    <a href="../mathilde/produktside_o.html">SHOP</a>
                 </li>
                 <li>
-                    <a href="index.html#om">OM</a>
+                    <a href="../mathilde/ommig.html">OM</a>
                 </li>
                 <li>
-                    <a href="index.html#kontakt">KONTAKT</a>
+                    <a href="../mathilde/kontakt.html">KONTAKT</a>
                 </li>
-                <li><a href="index.html">INSTAGRAM</a>
+                <li><a href="https://www.instagram.com/uttedesign/">INSTAGRAM</a>
                 </li>
             </ul>
         </nav>
@@ -42,11 +42,13 @@
 
         <div id="img_container">
             <div class="bag">
-                <img src="uielementer/kurv.svg">
+                <a href="../kamille/indkobskurv.html">
+                    <img src="../sohpie/uielementer/kurv.svg">
+                </a>
 
             </div>
             <div class="search">
-                <img src="uielementer/search.svg">
+                <img src="../sohpie/uielementer/search.svg">
             </div>
         </div>
     </header>
@@ -68,10 +70,10 @@
                             <p>Fjern</p>
                         </div>
                         <div class="plusminus">
-                            <div id="plus">
+                            <div class="plus">
                                 <a href="">+</a>
                             </div>
-                            <div id="minus">
+                            <div class="minus">
                                 <a href="">-</a>
                             </div>
                         </div>
@@ -85,10 +87,10 @@
                             <p>Fjern</p>
                         </div>
                         <div class="plusminus">
-                            <div id="plus">
+                            <div class="plus">
                                 <a href="">+</a>
                             </div>
-                            <div id="minus">
+                            <div class="minus">
                                 <a href="">-</a>
                             </div>
                         </div>
@@ -113,52 +115,53 @@
             </div>
         </section>
     </main>
-    <script src="..landingpage.js"></script>
-</body>
 
-<footer>
-    <div class="grid_container">
-        <div id="menuifooter">
-            <nav>
-                <a href="/mathilde/ommig.html">Om</a>
-                <a href="/mathilde/kontakt.html">Kontakt</a>
-                <a href="terms.html">Terms & conditions</a>
-                <a href="/kamille/returnering.html">Levering & returnering</a>
-                <a href="/mathilde/kontakt.html">Forhandlere</a>
-            </nav>
-            <div class="grid_col">
-                <a href="https://www.instagram.com/uttedesign/">
-                    <img src="images/instagram.png" alt="instagram ikon">
-                </a>
-                <a href="https://www.facebook.com/uttedesign">
-                    <img src="images/facebook.png" alt="facebook ikon">
-                </a>
+    <script src="../landingpage.js"></script>
+    <footer>
+        <div class="grid_container">
+            <div id="menuifooter">
+                <nav>
+                    <a href="/mathilde/ommig.html">Om</a>
+                    <a href="/mathilde/kontakt.html">Kontakt</a>
+                    <a href="terms.html">Terms & conditions</a>
+                    <a href="/kamille/returnering.html">Levering & returnering</a>
+                    <a href="/mathilde/kontakt.html">Forhandlere</a>
+                </nav>
+                <div class="grid_col">
+                    <a href="https://www.instagram.com/uttedesign/">
+                        <img src="images/instagram.png" alt="instagram ikon">
+                    </a>
+                    <a href="https://www.facebook.com/uttedesign">
+                        <img src="images/facebook.png" alt="facebook ikon">
+                    </a>
+                </div>
+            </div>
+            <div class="form">
+                <p>
+                    Hvis du har spørgsmål, skriv til mig. <br>Tak fordi du er her // Line Utte
+                </p>
+                <hr>
+                <form>
+                    <div class="form-felt">
+                        <input placeholder="Hvad hedder du?" id="name" type="text" name="name">
+                    </div>
+                    <div class="form-felt">
+                        <input placeholder="Hvad er din e-mail?" id="email" type="email" name="email">
+                    </div>
+                    <div class="form-felt">
+                        <label for="text">
+
+                        </label>
+                        <input placeholder="Besked (valgfri)" id="text" type="text" name="text">
+                    </div>
+                    <button>Send</button>
+
+
+                </form>
             </div>
         </div>
-        <div class="form">
-            <p>
-                Hvis du har spørgsmål, skriv til mig. <br>Tak fordi du er her // Line Utte
-            </p>
-            <hr>
-            <form>
-                <div class="form-felt">
-                    <input placeholder="Hvad hedder du?" id="name" type="text" name="name">
-                </div>
-                <div class="form-felt">
-                    <input placeholder="Hvad er din e-mail?" id="email" type="email" name="email">
-                </div>
-                <div class="form-felt">
-                    <label for="text">
+    </footer>
 
-                    </label>
-                    <input placeholder="Besked (valgfri)" id="text" type="text" name="text">
-                </div>
-                <button>Send</button>
-
-
-            </form>
-        </div>
-    </div>
-</footer>
+</body>
 
 </html>

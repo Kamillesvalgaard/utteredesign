@@ -9,12 +9,21 @@ body {
     border: solid #707070 2px;
     padding: 3vw;
     margin: 20px;
+    margin-top: 130px;
 }
 
 p,
 h2,
 h3 {
     color: #707070;
+}
+
+h1 {
+    color: black;
+}
+
+#menuknap {
+    color: black;
 }
 
 
@@ -43,6 +52,10 @@ a:hover {
     width: 50%;
 }
 
+header img {
+    width: 100%;
+}
+
 .section_wrapper2 {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -68,7 +81,7 @@ a:hover {
     padding: 3vw;
 }
 
-#plus {
+.plus {
     background-color: #5EA2A2;
     border-radius: 100px;
     width: 20px;
@@ -78,7 +91,7 @@ a:hover {
     margin: 3vw;
 }
 
-#minus {
+.minus {
     background-color: #5EA2A2;
     border-radius: 100px;
     width: 20px;
@@ -197,11 +210,11 @@ footer img {
         width: 40%;
     }
 
-    #plus {
+    .plus {
         width: 20px;
     }
 
-    #minus {
+    .minus {
         width: 20px;
     }
 
@@ -230,11 +243,11 @@ footer img {
         width: 35%;
     }
 
-    #plus {
+    .plus {
         width: 25px;
     }
 
-    #minus {
+    .minus {
         width: 25px;
     }
 }
@@ -261,11 +274,11 @@ footer img {
     }
 
 
-    #plus {
+    .plus {
         font-size: 2vw;
     }
 
-    #minus {
+    .minus {
         font-size: 2vw;
     }
 
