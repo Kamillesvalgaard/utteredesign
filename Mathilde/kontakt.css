@@ -26,6 +26,14 @@ html {
     width: 12vh;
 }
 
+header nav {
+    color: black;
+}
+
+#menulinje {
+    font-size: 1rem;
+
+}
 
 /*SECTION WRAPPER*/
 h1,
@@ -86,6 +94,11 @@ p {
 
     #img_container {
         width: 12vh;
+    }
+
+    #menulinje {
+        font-size: 1.5rem;
+
     }
 
     /*SECTION WRAPPER*/

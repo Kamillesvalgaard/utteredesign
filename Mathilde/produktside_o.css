@@ -23,6 +23,15 @@ h1 {
     color: black;
 }
 
+header nav {
+    color: black;
+}
+
+#menulinje {
+    font-size: 1rem;
+
+}
+
 /*NAV*/
 main nav {
     font-family: 'Quicksand', sans-serif;
@@ -31,7 +40,7 @@ main nav {
     font-size: 0.7rem;
     color: black;
     margin-left: 6vw;
-    margin-top: 24vw;
+    margin-top: 34vw;
     padding-bottom: 0;
 }
 
@@ -111,6 +120,11 @@ figcaption {
 
     #img_container {
         width: 12vh;
+    }
+
+    #menulinje {
+        font-size: 1.5rem;
+
     }
 
     /*    NAV*/
