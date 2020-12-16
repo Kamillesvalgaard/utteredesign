@@ -100,7 +100,7 @@ a:hover {
 }
 
 footer img {
-    width: 60%;
+    width: auto;
     margin: 3vw;
 }
 
@@ -164,7 +164,7 @@ footer img {
     }
 
     footer img {
-        width: 40%;
+        width: auto;
     }
 }
 
@@ -201,7 +201,7 @@ footer img {
 
 
     footer img {
-        width: 40%;
+        width: auto;
     }
 }
 
@@ -268,7 +268,7 @@ footer img {
     }
 
     footer img {
-        width: 40%;
+        width: auto;
     }
 
     #section1 img {
